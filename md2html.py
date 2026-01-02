@@ -102,7 +102,7 @@ tk.Checkbutton(root, text="Open in browser after saving", variable=preview_var,
 tk.Button(root, text="Convert & Save HTML", command=do_convert,
           bg="#2ECC71", fg="white", font=("Arial", 12), relief="flat").pack(pady=12)
 
-tk.Label(root, text="Created by Kian Pourali", font=("Arial", 10, "italic"),
+tk.Label(root, text="Created by MasterK", font=("Arial", 10, "italic"),
          bg="#1e1e1e", fg="#888888").pack(side="bottom", pady=8)
 
 root.mainloop()
